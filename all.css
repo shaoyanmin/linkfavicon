@@ -1,0 +1,11 @@
+.dokuwiki [data-linkfavicon] {
+    background-color: #fff;
+    background-blend-mode: luminosity;
+}
+
+.dokuwiki [data-linkfavicon]:hover {
+    background-color: transparent;
+    background-blend-mode: normal;
+    transition: all 0.2s ease-in-out;
+}
+

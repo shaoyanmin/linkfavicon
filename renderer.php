@@ -30,7 +30,8 @@ class renderer_plugin_linkfavicon extends Doku_Renderer_xhtml
             $parsedUrl = parse_url($url);
             $domain = $parsedUrl['host'];
 
-            $iconUrl = 'https://www.google.com/s2/favicons?domain=' . $domain . '&sz=16';
+            $iconUrl = 'https://www.faviconextractor.com/favicon/' . $domain;
+            // $iconUrl = 'https://www.google.com/s2/favicons?domain=' . $domain . '&sz=16';
             // $iconUrl = 'https://icons.duckduckgo.com/ip3/' . $domain . '.ico';
 
             $result = preg_replace('/(<a\s[^>]*href="[^"]*")/', '$1 data-linkfavicon="' . $iconUrl . '"', $result, 1);

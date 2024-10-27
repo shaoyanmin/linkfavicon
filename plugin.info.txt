@@ -1,0 +1,7 @@
+base   linkfavicon
+author ym2ha0
+email  shaoyan.alpha@gmail.com
+date   2024-10-27
+name   linkfavicon plugin
+desc   Extract a website's favicon and replace the default icon preceding the link.
+url    https://www.dokuwiki.org/plugin:linkfavicon
